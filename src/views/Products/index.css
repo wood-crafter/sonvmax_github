@@ -1,0 +1,25 @@
+.Products {
+  flex-grow: 1;
+  background-color: white;
+  color: black;
+}
+
+.products-container {
+  display: grid;
+  gap: 10px;
+  margin: 2rem;
+}
+
+.grid-item {
+  padding: 1rem;
+  max-height: 10rem;
+  max-width: 8rem;
+  border: 1px solid rgb(140, 140, 140);
+  border-radius: 1rem;
+}
+
+.grid-item:hover {
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 1rem;
+  cursor: pointer;
+}
